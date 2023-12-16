@@ -137,4 +137,23 @@ Using Environment Variables in **config.env** File for security purposes
     "password": "admin123"
     }
    ```
-   when admin logs in he can see all created users and there tasks list and when they copleted or updated tasks 
+   when admin logs in he can see all created users and there tasks list and when they Complete or updated tasks
+
+9)**Used Dependenciesr**
+  ```
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4",
+    "mongoose": "^5.5.2",
+    "morgan": "^1.9.1",
+    "nodemailer": "^6.9.7",
+    "slugify": "^1.3.4",
+    "uuid": "^9.0.1",
+    "validator": "^10.11.0"
+  }
+  ```
+   
